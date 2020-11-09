@@ -95,7 +95,7 @@ do
         dalfox -b j4v40n654n.xss.ht file output/$url.txt -o output/${url}_xss.txt
         if [ -f "output/${url}_xss.txt" ]; then
             if grep -q 'Trigger' "output/${url}_xss.txt"; then
-                cp "output/${url}_xss.txt" /content/drive/.
+                cp "output/${url}_xss.txt" "/content/drive/My Drive/".
             fi
         fi
     fi
