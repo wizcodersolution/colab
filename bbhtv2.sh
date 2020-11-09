@@ -66,17 +66,16 @@ sudo cp dalfox /usr/bin/
 echo "${BLUE} done${RESET}"
 echo ""
 
-echo "${BLUE} Paramspider${RESET}"
+echo "${BLUE} installing Paramspider${RESET}"
 git clone https://github.com/devanshbatham/ParamSpider ~/code/lab/scripts/tools/ParamSpider
 cd ~/code/lab/scripts/tools/ParamSpider
 sudo pip3 install -r requirements.txt
 echo "${BLUE} done${RESET}"
 echo ""
 
-
-
-echo "${BLUE} installing gau${RESET}"
-go get -u github.com/lc/gau
+echo "${BLUE} installing aem-hacker${RESET}"
+git clone https://github.com/0ang3el/aem-hacker.git ~/code/lab/scripts/tools/aem-hacker
+cd ~/code/lab/scripts/tools/aem-hacker
+sudo pip3 install -r requirements.txt
 echo "${BLUE} done${RESET}"
 echo ""
-
