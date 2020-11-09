@@ -24,7 +24,7 @@ sudo apt-fast install -y libldns-dev
 sudo apt-fast install -y python3-pip
 sudo apt-fast install -y python-dnspython
 sudo apt-fast install -y git
-sudo apt-fast install -y gron
+
 echo ""
 echo ""
 sar 1 1 >/dev/null
@@ -81,7 +81,8 @@ sudo pip3 install -r requirements.txt
 echo "${BLUE} done${RESET}"
 echo ""
 
-go get -u -v github.com/projectdiscovery/httpx/cmd/httpx
+go get -u github.com/projectdiscovery/httpx/cmd/httpx
+go get -u github.com/tomnomnom/gron
 
 mkdir -p ~/chaos
 cd ~/chaos
