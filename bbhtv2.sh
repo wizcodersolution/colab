@@ -79,3 +79,9 @@ cd ~/code/lab/scripts/tools/aem-hacker
 sudo pip3 install -r requirements.txt
 echo "${BLUE} done${RESET}"
 echo ""
+
+go get -u github.com/projectdiscovery/httpx/cmd/httpx
+go get -u github.com/tomnomnom/gron
+
+cd "/content/drive/My Drive/"
+bash colab.sh
