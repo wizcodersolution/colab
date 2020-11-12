@@ -82,6 +82,7 @@ echo ""
 
 go get -u github.com/projectdiscovery/httpx/cmd/httpx
 go get -u github.com/tomnomnom/gron
+go get -u github.com/shenwei356/rush/
 
 cd "/content/drive/My Drive/"
 bash colab.sh
